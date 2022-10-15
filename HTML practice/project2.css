@@ -1,0 +1,62 @@
+body{
+    background-color: #000;
+    color: #fff;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+
+
+.horizontal{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.pic{
+    width: auto;
+    border-radius: 50%;
+}
+
+.picture{
+    border-radius: 50%;
+}
+
+.picture_of{
+    border-radius: 50%;
+}
+
+.try{
+    display: flex;
+    justify-content: space-around;
+}
+
+.try_harder{
+    display: flex;
+    justify-content: space-around;
+}
+
+.object{
+    padding: 0px 60px;
+    
+}
+
+.object_note{
+    padding: 0px 100px;
+
+}
+
+.object_notebook{
+    margin-left: 10px;
+    
+    
+}
+
+
+
+
+
+

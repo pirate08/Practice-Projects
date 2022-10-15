@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #fae7c3;
+}
+
+.navbar-container {
+  width: 100%;
+  background-image: linear-gradient(red,yellow);
+}
+
+.navbar {
+  width: 90%;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  padding: 15px 0;
+}
+
+.navbar-menu {
+  list-style: none;
+  display: flex;
+}
+
+.navbar-logo {
+    color: #0500FF;
+    font-weight: 900;
+}
+
+.navbar-menu li {
+  margin-right: 12px;
+  text-decoration: none;
+}
+
+.hero {
+    width: 100vw;
+    margin-bottom: 20px;
+}
+
+.hero-image {
+    width: 100%;
+    height: 90vh;
+}
+
+.third{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+.second {
+    color: #FF0F00;
+    font-size: larger;
+    font-weight: 800;
+    text-decoration: underline;
+    width: 50%;
+}
+
+.first{
+    border: 10px solid #ab120f;
+    width: 50%;
+    padding: 25px;
+    border-radius: 25px;
+    background-color: yellow;
+    margin-bottom: 20px;
+    
+}
+
+.input{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    
+
+}
+
+.bg-parent {
+    width: 100%;
+}
+
+.bgstyle{
+    border: 10px solid #34B6FF;
+    border-radius: 25px;
+    padding: 0;
+    margin-bottom: 20px;
+    padding: 20px 40px;
+    background-color: aqua;
+    
+}
+.laptop{
+    margin-bottom: 20px;
+    border: 5px solid #34B6FF ;
+    padding: 10px;
+}
+
+.nemo{
+    margin-bottom: 20px;
+    border: 5px solid #34B6FF;
+    padding: 10px;
+}
+
+.nemotivity{
+    margin-bottom: 20px;
+    border: 5px solid #34B6FF;
+    padding: 10px;
+
+}
+.king{
+    display: flex;
+    justify-content: flex-end;
+}  
+
+.tree{
+    background-color: #0500FF;
+    padding: 20px 40px;
+    border-radius: 25px;
+    color: #fff
+
+}
+
+
+.tree:hover{
+    color: #FF0F00;
+    font-weight: bold;
+}
+
+.button{
+    width: 50%;
+    font-weight: bold;
+    color: #0500FF;
+    text-decoration: underline;
+    margin-left: 200px;
+
+}
+
+
+h2{
+    color: #00ff66;
+    text-align: center;
+}
+
+p{
+    color: #821c91;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.copyright{
+    width: 100%;
+    background-color: #821c91;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.input_design {
+    width: 100%;
+    padding: 10px 20px;
+    
+   
+}

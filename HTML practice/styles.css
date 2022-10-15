@@ -1,0 +1,76 @@
+body {
+    background-image:linear-gradient(red,yellow);
+}
+
+.red-text {
+    color: red;
+}
+
+#underline {
+    text-decoration: underline;
+}
+
+/* For Classes use .(dot) */
+
+/* For ids use # */
+
+.bg-yellow {
+    background-color: yellow;
+    
+}
+
+.bg-red {
+    background-color: red;
+}
+
+/* this is a CSS box model*/
+/*margin
+border
+padding*/
+
+.something {
+    background: url(./images/lingkong.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:200px;
+    margin:100px;
+    color:#ffff1a;
+
+    border:20px solid black;
+
+    padding:100px 30px ;
+}
+
+.work{
+    
+    font-size:70px;
+    color: green;
+    text-align: center;
+
+}
+
+.new{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color:saddlebrown;
+    margin-top:0px ;
+    line-height:40px ;
+    font-style: inherit;
+    font-weight: bold;
+}   
+
+.decoration{
+    font-weight: bolder;    
+    text-decoration:underline ;
+    text-transform:capitalize;
+}
+
+a{
+    color:black;
+}
+a:hover{
+    color:aliceblue;
+    font-size: 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+    /*a:link, a:visited,a:hover,a:active,a:focus

@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato" ,sans-serif;
+    line-height: 1.8em;
+    font-weight: 400;
+    color: #666;
+}
+
+
+.imgp1{
+    background-image: url(./images/image\ 2.jpg);
+    min-height: 100%;
+
+}
+.imgp2{
+    background-image: url(./images/image1.jpg);
+    min-height: 400px;
+
+}
+.imgp3{
+    background-image: url(./images/image\ 3.webp);
+    min-height: 400px;
+
+}
+
+.imgp1, .imgp2, .imgp3{
+
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.first-text{
+    position: absolute;
+    top: 50%;
+     width: 100%;
+     text-align: center;
+    text-transform: uppercase;
+    font-size: 27px;
+    letter-spacing: 8px; 
+} 
+
+.bg-color{
+    background: #313534;
+    color: #fff;
+    padding: 20px;
+}
+
+.topic{
+    padding: 50px 80px;
+    text-align: center;
+}
+
+.topic h2{
+    margin-bottom: 20px;
+}
+
+.topic-light{
+    background-color: #ddd;
+    color:  #282e34;
+}
+
+
+.start{
+    padding: 50px 80px;
+    text-align: center;
+}
+ 
+.start h2{
+    margin-bottom: 20px;
+}
+
+.topic-dark{
+    background-color: #282e34;
+    color: #ddd;
+} 
+
+.last{
+    padding: 50px 80px;
+    text-align: center;
+
+}
+
+.last h2{
+    margin-bottom: 20px;
+}
+
+.last-color{
+    background-color: #ddd;
+    color:  #282e34;
+
+}
+
+@media (max-width: 480px){
+    .bg-color{
+        padding: 5px 0px;
+        font-size: 25px;
+        font-weight: bold;
+
+    }
+
+    .topic{
+        padding: 50px 30px;
+
+    }
+
+    
+    .start{
+         padding: 50px 30px;
+
+    } 
+
+    .last{
+        padding: 50px 30px;
+
+    }  
+
+
+}
+

@@ -1,0 +1,538 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    line-height: 1.4;
+     scroll-behavior: smooth; 
+}
+
+.navigation-bar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #20158a;
+    color: #fff;
+    padding: 15px 60px 15px 60px;
+
+}
+
+.nav h3{
+    font-size: 25px;
+}
+
+.nav-container ul{
+    display: flex;
+    list-style: none;
+    
+    
+}
+
+.nav-container li{
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #fff;
+   
+}
+
+.nav-container a{
+    text-decoration: none;
+}
+
+.nav-container ul li{
+    border-bottom: 2px solid transparent;
+    transition: 0.2s ease-in;
+}
+
+.nav-container ul li:hover{
+    border-bottom: 2px solid #fff;
+    transition: 0.2s ease-in;
+}
+
+
+
+.join {
+  background-image: url('https://images.unsplash.com/photo-1470225620780-dba8ba36b745?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+  height: 90vh;
+  width: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+  height: 100%;
+}
+
+.heading {
+  font-size: 68px;
+  margin-bottom: 15px;
+}
+
+.subheading {
+  font-size: 28px;
+}
+
+.para {
+  margin-top: 20px;
+  width: 60%;
+  font-weight: 400;
+}
+
+.middle-part{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #4d1196;
+    color: #fff;
+    padding: 40px 80px 300px 80px;
+    position: relative;
+   
+}
+
+.symbol{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.symbol i{
+    margin-right: 20px;
+    font-size: 45px;
+}
+
+.symbol h3{
+    margin-right: 10px;
+    font-size: 40px;
+}
+
+.paragraph{
+    font-weight: 400;
+    
+}
+
+.down{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.align{
+    text-align: center;
+    margin-bottom: 80px;
+    margin-left: 170px;
+    margin-right: 100px;
+    
+}
+
+.background{
+    text-align: center;
+}
+
+.bg-color{
+    margin-bottom: 30px;
+    font-size: 15px; 
+    background-color: #db3514;
+    padding: 10px 20px;
+    border: #db3514;
+    color: #fff;
+    margin-left: 600px;
+    
+}
+
+.center{
+    font-size: 13px;
+    margin-bottom: 70px;
+}
+
+.picture{
+    position: absolute;
+    bottom: -30%;
+    
+}    
+
+.music{
+    width: 50%;
+    margin-left: 350px;
+}
+
+.middle-image{
+    margin-top: 400px;
+    padding: 0px 80px 100px 110px;
+    text-align: center;
+    
+}
+
+.big-text{
+    font-weight: 400;
+}
+
+.big-text h4{
+    margin-bottom: 25px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.small-box button{
+    margin-top: 30px;
+    background-color: #20158a;
+    color: #fff;
+    padding: 10px 25px;
+    margin-left: 10px;
+}
+
+
+
+.last-image{
+    background-image: url(https://image.shutterstock.com/image-photo/happy-people-dance-nightclub-party-260nw-1086269561.jpg);
+    height: 90vh;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 90px;
+}
+
+.text-part{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0px 70px;
+    margin-bottom: 40px;
+}  
+
+.text-part h4{
+    margin-top: 200px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.text-part p{
+    font-weight: 400;
+}
+
+.card{
+    display: flex;
+    padding: 0px 80px;
+    
+}
+
+.gift-image{
+    margin-right: 150px;
+}
+
+.card-text h2{
+    font-size: 32px;
+    margin-bottom: 30px;
+    
+}
+
+.card-text p{
+    line-height: 50px;
+    font-weight: 400;
+    color: rgb(22, 21, 21);
+    margin-bottom: 40px;
+}
+
+.card-text button{
+    background-color: #20158a;
+    color: #fff;
+    padding: 10px 30px;
+    margin-bottom: 60px;
+}
+
+.last-workout{
+    display: flex;
+    justify-content: space-around;
+    background-color: #20158a;
+    color: #fff;
+    padding: 80px 120px;
+}
+
+.first h2{
+    margin-bottom: 20px;
+    border-bottom: 1px solid #fff;
+    font-weight: 400;
+    transition: 0.2s ease-in-out;
+}
+
+.first ul li{
+    font-weight: 400;
+    list-style: none;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.first h2:hover{
+    transition: 0.2s ease-in-out;
+    color: #ec8ced;
+    transform: scale(1.1);
+}
+
+.copyright {
+    text-align: center;
+    padding: 10px 0px;
+    background-color: #4d1196;
+    color: #fff;
+}  
+
+
+@media (max-width:480px) {
+
+    .navigation-bar{
+        padding: 0px;
+    }
+
+    .nav h3{
+        font-size: 20px;
+        margin-top: 10px;
+        margin-left: 5px;
+        margin-bottom: 10px;
+    }
+
+    .nav-container li{
+        font-size: 15px;
+        margin-left: 10px;
+        margin-right: 5px;
+        margin-top: 14px;
+        margin-bottom: 10px;
+    }
+
+    
+    .heading {
+        font-size: 50px;
+    }
+  
+    .subheading {
+        font-size: 25px;
+        margin-left: 25px;
+    }
+  
+    .para {
+        margin-top: 20px;
+        width: 80%;
+    }
+
+    .middle-part{
+        padding: 0px;
+        padding-bottom: 100px;
+
+    }
+
+    .symbol{
+        margin-top: 30px;
+    }
+
+    .symbol i{
+        margin-right: 18px;
+        font-size: 35px;
+        margin-top: 10px;
+    }
+
+    .down{
+        font-size: 18px;
+        margin-left: 10px;
+
+    }
+
+    .align{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .bg-color{
+        margin-left: 120px;
+
+    }
+
+    
+    .picture{
+        position: absolute;
+        bottom: -20%;
+        left: -75%;
+        
+    }  
+
+    .middle-image{
+        margin-top: 200px;
+        padding: 0px 15px;
+    }
+
+
+    .text-part{
+        padding: 0px 10px;
+        margin-bottom: 40px;
+    }  
+
+    .text-part h4{
+        margin-top: 150px;
+        font-size: 25px;
+        margin-bottom: 30px;
+    }
+
+    .card{
+        padding: 0px;
+        flex-wrap: wrap;
+    }
+
+    .gift-image {
+        margin-bottom: 30px;
+    }
+
+    .card-text h2 {
+        margin-left: 120px;
+    }
+
+
+    .card-text p {
+        padding: 0px 20px;
+        line-height: 30px;
+    }
+
+
+    .card-text button {
+        margin-left: 120px;
+
+    }
+
+    .last-workout{
+        padding: 10px 10px;
+    }
+
+    .first h2{
+        font-size: 16px;
+        border-bottom: none;
+        margin-right: 10px;
+    }
+
+    .first li{
+        margin-right: 10px;
+    }
+
+    .feature img {
+        width: 100%;
+    }
+
+
+
+}
+
+@media (max-width:768px) {
+
+    
+.middle-part{
+    padding: 0px;
+    padding-bottom: 100px;
+   
+}
+
+.symbol i{
+    margin-right: 10px;
+    margin-top: 40px;
+    font-size: 35px;
+}
+
+.symbol h3{
+    margin-right: 10px;
+    font-size: 40px;
+    margin-top: 30px;
+}
+
+
+
+.align{
+    text-align: center;
+    margin-bottom: 80px;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+
+
+.bg-color{
+    margin-bottom: 40px;
+    padding: 10px 20px;
+    margin-left: 280px;
+    
+}
+
+
+.picture{
+    position: absolute;
+    bottom: -30%;
+    left: -25%;
+}    
+
+.music{
+    margin-left: 300px;
+}
+
+
+.middle-image{
+    margin-top: 300px;
+    padding: 0px 80px 100px 80px;
+    
+}
+
+
+.feature img {
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+.card{
+    padding: 0px;
+    flex-wrap: wrap;
+}
+
+.gift-image {
+    margin-bottom: 30px;
+}
+
+.card-text h2 {
+    margin-left: 20px;
+}
+
+
+.card-text p {
+    padding: 0px 20px;
+    line-height: 30px;
+}
+
+
+.card-text button {
+    margin-left: 300px;
+
+}
+
+
+.last-workout{
+    padding: 80px 50px;
+}
+
+
+
+
+
+
+
+
+}
+
+
+
+
+

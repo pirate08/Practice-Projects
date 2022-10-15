@@ -1,0 +1,566 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    line-height: 1.4;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;  
+
+}
+
+nav{
+    box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.05);
+    top: 0;
+    position: sticky;
+    margin-bottom: 32px;
+    background-color: #fff;
+}
+
+.main-content{
+    display: flex;
+    justify-content: space-between;
+     width: 90%; 
+
+}
+
+.container{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 8px;
+    margin-left: 50px;
+    height: 120px;
+    margin-bottom: 20px;
+
+}
+
+.logo{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 50px;
+    font-size: 24px;
+}
+
+.second-part{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+    padding: 40px 0px;
+    
+}
+
+.image{
+    border-radius: 50%;
+    width: 50%;
+    margin-left: 300px;
+
+}
+
+.join{
+    display: flex;
+    flex-direction: column;
+    margin-right: 160px;
+    width: 50%;
+
+}
+
+.bg-color{
+    margin-right: 60px;
+    margin-bottom: 40px;
+    
+       
+}
+
+.got{
+    background-color: #0d941f;
+    padding: 5px 20px;
+    border: #0d941f;
+    color: #fff;
+
+}
+
+.got:hover{
+    transform: scale(1.3);
+    color: #fff;
+}
+
+.text h1{
+    font-size: 60px;
+
+}
+
+.text p{
+    color: #000;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.small-box{
+    background-color: #a87f18;
+    border: #a87f18;
+    padding: 20px;
+    color: #fff;
+    transition: ease-in-out 0.3s;
+}
+
+.small-box:hover{
+    color: #fff;
+    transform: scale(1.3);
+}
+
+.third-part{
+    margin-top: 100px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 50px;
+    padding: 0px 120px;
+    
+}
+.shadow:hover{
+    transition: 0.2s ease-in-out;
+    box-shadow: 5px 5px 5px rgba(1,1,1,0.05);
+}
+
+.logostar{
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+    
+}
+
+.logostar i{
+    font-size: 40px;
+}
+
+.feature{
+    font-weight: 300;
+}
+
+.middle{
+    text-align: center;
+}
+
+.middle button{
+    background-color: #0d941f;
+    color: #fff;
+    border: #0d941f;
+    padding: 15px 20px;
+    margin-bottom: 30px;
+
+}
+
+.middle button:hover{
+    transform: scale(1.3);
+}
+
+.important-part{
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 120px 0px 0px 150px;
+    margin-bottom: 80px;
+     
+}    
+
+.pictures{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.pokora{
+    width: 60%;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.nun{
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.picture-2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.chicken{
+    width: 25%;
+    margin-right: 10px;
+    height: 50%;
+}
+
+.vegetable{
+    width: 25%;
+    margin-right: 10px;
+    height: 50%;
+}
+
+.sweets{
+    width: 25%;
+    margin-right: 10px;
+    height: 50%;
+}
+.bread{
+    width: 15%;
+    height: 50%;
+
+}
+
+
+.last-one{
+    background-color: #fff0db;
+    padding: 50px 0px 100px 0px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.small-work{
+    margin-left: 200px;
+}
+
+.link{
+    margin-left: 150px;
+}
+
+.link h4{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.link ul li{
+    font-weight: 400;
+    list-style: none;
+
+}
+
+.next{
+    margin-left: 150px;
+}
+
+.next h4{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.next ul li{
+    font-weight: 400;
+    list-style: none;
+    
+
+}
+
+.end{
+    display: flex;
+    flex-direction: column;
+}
+
+.blank{
+    margin-left: 200px;
+    margin-bottom: 30px;
+}
+
+.blank label{
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+.blank input {
+    margin-top: 15px;
+    padding: 3px 40px;
+}
+
+.follow{
+    margin-left: 205px;
+    margin-bottom: 15px;
+}
+
+.follow h4{
+    font-size: 20px;
+}
+
+.logo-container{
+    display: flex;
+    gap: 15px;
+    font-size: 32px;
+    justify-content: center;
+    margin-left: 105px;
+    
+}
+
+@media (max-width:480px){
+
+
+.container{
+    margin-left: 20px;
+}    
+
+    
+.second-part{
+    flex-wrap: wrap;
+    
+}
+
+.image{
+    border-radius: 50%;
+    margin-left: 100px;
+    margin-bottom: 50px;
+
+}
+
+
+.join{
+    margin-right: 0px;
+    width: 90%;
+
+}
+
+.bg-color{
+    margin-right: 0px;
+    margin-bottom: 20px;
+}
+
+.got{
+    padding: 5px 10px;
+    margin-left: 10px;
+}
+
+.text h1{
+    font-size: 50px;
+    margin-left: 10px;
+}
+
+.text p{
+    margin-left: 10px;
+}
+
+.placement{
+    margin-left: 10px;
+}
+
+.third-part{
+    gap: 10px;
+    padding: 0px 50px;
+    flex-wrap: wrap;
+
+    
+}
+
+
+.logostar{
+    gap: 0px;
+    margin-top: 10px;
+    
+}
+
+.logostar i{
+    font-size: 20px;
+    margin-right: 4px;
+}
+
+
+.important-part{
+    padding: 0px; 
+    margin-bottom: 80px;
+    margin-left: 10px;
+    margin-top: 50px;
+     
+}  
+
+
+.chicken{
+    margin-right: 5px;
+}
+
+.vegetable{
+    margin-right: 5px;
+}
+
+.sweets{
+    margin-right: 5px;
+}
+
+.last-one{
+    padding: 0px;
+
+}
+
+.small-work{
+    margin-left: 0px;
+    margin-top: 20px;
+}
+
+
+.link{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.next{
+    margin-left: 20px;
+
+}
+
+.blank{
+    margin-left: 20px;
+}
+
+.last-one{
+    flex-wrap: wrap;
+    padding: 0px 0px;
+    
+}
+
+.next{
+    margin-top: 20px;
+}
+
+.end{
+    margin-top: 20px;
+    
+}
+
+.end input {
+    width: 70%;
+}
+
+.follow{
+    margin-left: 0px;
+    margin-bottom: 10px; 
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+.follow h4{
+    font-size: 20px;
+}
+
+.logo-container{
+    gap: 15px;
+    font-size: 24px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    
+}
+
+
+}
+
+@media (max-width:768px){  
+    
+    .image{
+        margin-left: 50px; 
+        width: 50%;
+
+    }
+
+    .join{
+        margin-right: 20px; 
+    }
+    
+    .text h1{
+         font-size: 40px;
+
+    }
+
+    .third-part{
+        padding: 0px;
+    }
+
+    .important-part{
+         padding: 0px;
+         margin-left: 20px;
+         margin-top: 40px;
+
+    }
+
+    
+    .chicken{
+        margin-right: 5px;
+    }
+
+    .vegetable{
+         margin-right: 5px;
+    }
+
+    .sweets{
+        margin-right: 5px;
+    }
+
+
+    
+    .small-work{
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+
+    
+    .last-one{
+         padding: 0px 0px;
+    
+    }
+
+     
+    .link{
+        margin-left: 30px;
+        margin-top: 20px;
+        margin-right: 20px;
+    }   
+
+    .link h4{
+        font-size: 17px;
+    }
+
+    .next{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    .end{
+        margin-top: 20px;
+    
+    }   
+
+    .blank{
+        margin-left: 50px;
+    }
+
+    .blank input {
+        width: 70%;
+    }
+   
+    .follow{
+        margin-left: 70px;
+    }
+
+    .logo-container {
+        margin-left: 0px;
+    }
+
+
+
+}
+
+
+
+     
+    
+
+
+
+ 
+
